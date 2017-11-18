@@ -17,5 +17,5 @@ Swaps between 3 colors based on camera distance.
 WIP - Improvements are needed.
   
 # ScrollingLava
-![ScrollingLava](https://i.gyazo.com/793a40eea5b03a8b1ceb45803d359bcf.gif)  
+![ScrollingLava](https://i.gyazo.com/2d6130eb0e0174b39b112d05c1a8a351.gif)  
 Makes a bumpy vertex offset, as well as scrolls the texture for a more fluid look.
