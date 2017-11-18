@@ -1,6 +1,9 @@
 # Syn's Unity Shaders
 A set of shaders mainly created using ShaderForge for use in Unity.  
   NOTE: All textures used below can be found within Syns-Unity-Shaders/assets/ directory.
+
+# How to add to assets?
+Hit the clone or download button at the top right and hit download zip.  Once downloaded open the zip and extract the Syns-Unity-Shaders (**not** Syns-Unity-Shaders-master) folder into your assets folder.
   
 # PanningOutline
 ![PanningOutline](https://imgur.com/a4L4G6h.gif)  
