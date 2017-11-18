@@ -3,7 +3,7 @@ A set of shaders mainly created using ShaderForge for use in Unity.
   
 # PanningOutline
 ![PanningOutline](https://imgur.com/a4L4G6h.gif)  
-Pans a texture around the outline of a mesh. (Rainbow texture not included!)  
+Pans a texture around the outline of a mesh.  
   
 # TextureOverlay
 ![TextureOverlay](https://i.gyazo.com/2cc5539826f783f16aec87c191156b58.gif)  
@@ -14,4 +14,5 @@ Rotates and overlays a texture over the whole model.
 Swaps between 3 colors based on camera distance.  
   
 # WaterShader
-+<img src="/gifs/water-shader.gif?raw=true" width="200px" height="200px">
++<img src="/gifs/water-shader.gif?raw=true">  
+Simulates nice looking water using a normal map, and optional foam texture.
