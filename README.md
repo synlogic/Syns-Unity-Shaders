@@ -2,7 +2,7 @@
 A set of shaders mainly created using ShaderForge for use in Unity.  
   
 # PanningOutline
-![PanningOutline](https://imgur.com/a4L4G6h.gif)
+![PanningOutline](https://imgur.com/a4L4G6h.gif)  
 Pans a texture around the outline of a mesh. (Rainbow texture not included!)  
   
 # TextureOverlay
@@ -17,5 +17,5 @@ Swaps between 3 colors based on camera distance.
 WIP - Improvements are needed.
   
 # ScrollingLava
-![ScrollingLava](https://i.gyazo.com/2d6130eb0e0174b39b112d05c1a8a351.gif)  
+![ScrollingLava](https://i.gyazo.com/ac4e1147a69f06f2f25a82c6c35ac6da.gif)  
 Makes a bumpy vertex offset, as well as scrolls the texture for a more fluid look.
