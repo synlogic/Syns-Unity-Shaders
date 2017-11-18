@@ -14,4 +14,4 @@ Rotates and overlays a texture over the whole model.
 Swaps between 3 colors based on camera distance.  
   
 # WaterShader
-+<img src="/gifs/watershader.gif?raw=true" width="200px" height="200px">
++<img src="/gifs/water-shader.gif?raw=true" width="200px" height="200px">
