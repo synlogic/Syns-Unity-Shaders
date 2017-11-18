@@ -15,7 +15,3 @@ Swaps between 3 colors based on camera distance.
   
 # WaterShader
 WIP - Improvements are needed.
-  
-# ScrollingLava
-![ScrollingLava](https://i.gyazo.com/ac4e1147a69f06f2f25a82c6c35ac6da.gif)  
-Makes a bumpy vertex offset, as well as scrolls the texture for a more fluid look.
