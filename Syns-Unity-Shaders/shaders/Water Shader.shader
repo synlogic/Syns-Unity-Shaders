@@ -7,11 +7,11 @@ Shader "SynLogic/Water Shader" {
     Properties {
         _WaterTint ("Water Tint", Color) = (0,0.4126267,0.5808823,0.928)
         _WaveIntensity ("WaveIntensity", Float ) = 1
-        _FoamTexture ("FoamTexture", 2D) = "white" {}
-        _FoamRange ("FoamRange", Float ) = 0
+        _WaveSpeed ("WaveSpeed", Range(0, 10)) = 0.006644173
         _DarknessDistance ("DarknessDistance", Float ) = 1
         _FoamTexture_Tint ("FoamTexture_Tint", Color) = (1,1,1,1)
-        _WaveSpeed ("WaveSpeed", Range(0, 10)) = 0.006644173
+        _FoamTexture ("FoamTexture", 2D) = "white" {}
+        _FoamRange ("FoamRange", Float ) = 0
         _NormalMap ("NormalMap", 2D) = "bump" {}
         _Gloss ("Gloss", Range(0, 1)) = 0.95
         _Specular ("Specular", Range(0, 1)) = 0.35
