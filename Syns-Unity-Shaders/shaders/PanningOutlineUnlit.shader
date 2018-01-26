@@ -6,7 +6,7 @@
 Shader "SynLogic/PanningOutlineUnlit" {
     Properties {
         _MainTex ("MainTex", 2D) = "bump" {}
-        _OutlineWidth ("Outline Width", Float ) = 0.01
+        _OutlineWidth ("Outline Width", Float ) = 0.0001
         _Speed ("Speed", Float ) = 0.05
         _Tint ("Tint", Color) = (1,1,1,1)
         _OutlineTexture ("Outline Texture", 2D) = "white" {}
