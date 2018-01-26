@@ -6,7 +6,7 @@
 Shader "SynLogic/PanningOutline" {
     Properties {
         _MainTex ("MainTex", 2D) = "bump" {}
-        _OutlineWidth ("Outline Width", Float ) = 0.01
+        _OutlineWidth ("Outline Width", Float ) = 0.0001
         _Rainbow ("Rainbow", 2D) = "white" {}
         _Speed ("Speed", Float ) = 0.05
     }
