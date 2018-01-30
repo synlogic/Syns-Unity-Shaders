@@ -31,4 +31,7 @@ Rotates and overlays a texture over the whole model.
 # DistanceColorSwap
 ![DistanceColorSwap](https://i.gyazo.com/2d6130eb0e0174b39b112d05c1a8a351.gif)  
 Swaps between 3 colors based on camera distance.  
+
+# ScanLine
++<img src="/gifs/scanlines.gif?raw=true">
   
