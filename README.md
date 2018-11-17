@@ -1,37 +1,66 @@
 # Syn's Unity Shaders
-A set of shaders mainly created using ShaderForge for use in Unity.  
-  NOTE: All textures used below can be found within Syns-Unity-Shaders/assets/ directory.
+A set of fun/useful shaders for use in VRChat and Unity.  
+
+# As of 11/17/2018 I have moved the shaders from ShaderForge to Amplify.
+# I have also added example scene and improved on a lot of the shader's code.  There is also now a toon shader!
 
 # How to add to assets?
 Hit the clone or download button at the top right and hit download zip.  Once downloaded open the zip and extract the Syns-Unity-Shaders (**not** Syns-Unity-Shaders-master) folder into your assets folder.
   
-# WaterShader
-+<img src="/gifs/water-shader.gif?raw=true">  
-Simulates nice looking water using a normal map, and optional foam texture.
-  * Water Tint: Changes the Overall Color of the water.
-  * WaveIntensity: Changes the amplitude of the waves, increasing the waves height.
-  * Foam Range: Changes the range that the foam appears when near a surface, leave 0 for no foam.
-  * DarknessDistance:  Changes the distance to the darker part of the water from surface.
-  * FoamTexture Tint: Changes the tint of the foam.
-  * WaveSpeed: Changes the frequency of the waves.
-  * Speed:  Changes the speed that the normal maps move.
-  * Foam:  Enables or disables the foam effect.
+# Avatar Shaders
++<img src="Assets/avatar-shaders.gif?raw=true">
   
-# PanningOutline
-![PanningOutline](https://imgur.com/a4L4G6h.gif)  
-Pans a texture around the outline of a mesh.  
-  * Outline Width: Changes the size of the outline
-  * Speed: Changes the speed that the texture moves
-  * Tint:  Changes the overall tint of MainTex
-  
-# TextureOverlay
-![TextureOverlay](https://i.gyazo.com/2cc5539826f783f16aec87c191156b58.gif)  
-Rotates and overlays a texture over the whole model.  
-  
-# DistanceColorSwap
-![DistanceColorSwap](https://i.gyazo.com/2d6130eb0e0174b39b112d05c1a8a351.gif)  
-Swaps between 3 colors based on camera distance.  
+# Toon
+A simple toon shader for VRChat models.
+  * Mask Clip Value:  Transparency Cutout percentage
+  * Ramp:  Determines the shape and color of the shadows
+  * Outline Color:  Color of the outline
+  * Outline Size:  Size of the outline
+  * Shading:  Overall brightness of the model.
+  * Fake Lighting Toggle:  Toggles a static light direction.
+  * Fake Light Direction:  Static light direction.
 
-# ScanLine
-+<img src="/gifs/scanlines.gif?raw=true">
+# PanningOutline and Texture Overlay
+Pans a texture around the outline and/or on-top of a mesh.  
+  * Unlit:  Toggles whether or not the material is Unlit
+  * Tint:  Tint of MainTex
+  * Overlay Amount:  Amount of the OverlayTexture is shown
+  * Overlay Speed:  Vector2 (UV) speed of the Overlay's panning
+  * Outline Speed:  Vector2 (UV) speed of the outline's panning
+  * Outline Width: Width of the outline (Smaller numbers work best EX .002)
   
+# ScanLine  
+Swaps between two textures based on speed and harshness set.
+  * Tint:  Overall tint of the Texture
+  * Speed:  Speed of the scanline
+  * Harshness: How soft or harsh the scanline is
+  * Unlit:  Toggles whether or not the material is Unlit
+  
+# WaterShader  
+Example scene: Examples/Water
++<img src="Assets/water-shader.png?raw=true">  
+Simulates nice looking water.
+  * Specular:  Specularity of the water
+  * Gloss:  Glossiness of the water, higher the more wet looking.
+  * Specular Darkness:  Changes the darkness of the specular highlights.
+  * Master Opacity:  Controls the opacity of the water.
+  * Depth Based Opacity: Enables depth based opacity simulating darker/lighter waters with background geometery.
+  * Opacity Depth:  How far it takes to go from 0-1 opacity.
+  * Water Tint:  Overall tint of the water.
+  * Water Overlay Texture:  Allows for a texture to be overlayed onto the water.
+  * Normal Speed:  Speed the normals pan.
+  * Normal 2 Offset: Offset of the copy of the first normals
+  * Reflection Probe: Set to a cubemap to give reflections of a skybox
+  * Reflection Strength:  Intensity of the reflection, smaller is more.
+  
+  **Tesselation Options**
+  * Tesselation Factor:  Amount of tesselation, used to smooth vertex movement.
+  * Max Tes Distance: Maximum distance for tesselation effect.
+  * Min Tes Distance: Minimum distance for tesselation effect.
+  
+  **Gertscher Wave Vertex Offset**
+  * Vertex Offset Toggle: Disables/Enables the wave function
+  * Wave Amplitude: Can be used to set amount of waves
+  * Wave Height:  Height of the waves
+  * Wave Speed:  Speed of the waves
+  * Wave Direction 1-4: Changes the shape and direction of the waves.  Having multiple values is generally desirable.
