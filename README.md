@@ -1,14 +1,15 @@
 # Syn's Unity Shaders
 A set of fun/useful shaders for use in VRChat and Unity.  
 
-# As of 11/17/2018 I have moved the shaders from ShaderForge to Amplify.
-# I have also added example scene and improved on a lot of the shader's code.  There is also now a toon shader!
+## As of 11/17/2018 I have moved the shaders from ShaderForge to Amplify.
+## I have also added example scene and improved on a lot of the shader's code.  There is also now a toon shader!
 
-# How to add to assets?
-Hit the clone or download button at the top right and hit download zip.  Once downloaded open the zip and extract the Syns-Unity-Shaders (**not** Syns-Unity-Shaders-master) folder into your assets folder.
-  
+# How to add to assets?  
+Download and extract the following unity package:
+[syns-unity-shaders.unitypackage](other_file.md)
 # Avatar Shaders
-+<img src="Assets/avatar-shaders.gif?raw=true">
++<img src="Syns-Unity-Shaders
+/Assets/avatar-shaders.gif?raw=true">
   
 # Toon
 A simple toon shader for VRChat models.
@@ -38,7 +39,8 @@ Swaps between two textures based on speed and harshness set.
   
 # WaterShader  
 Example scene: Examples/Water
-+<img src="Assets/water-shader.png?raw=true">  
++<img src="Syns-Unity-Shaders
+/Assets/water-shader.png?raw=true">  
 Simulates nice looking water.
   * Specular:  Specularity of the water
   * Gloss:  Glossiness of the water, higher the more wet looking.
