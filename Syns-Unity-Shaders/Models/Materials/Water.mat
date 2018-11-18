@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Water
   m_Shader: {fileID: 4800000, guid: 889d27709e3311442b4f028f42ec71e9, type: 3}
-  m_ShaderKeywords: _FAKELIGHTDIR_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -72,7 +72,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Normals:
         m_Texture: {fileID: 2800000, guid: 74135c18e57b2c644a697aedd7dd3e47, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -87,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionProbe:
-        m_Texture: {fileID: 8900000, guid: 586a4ce92eceaac458f086b5421fb73e, type: 3}
+        m_Texture: {fileID: 8900000, guid: 9fd87dc49bcaa9b4f987db25b40085f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
@@ -127,13 +127,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EdgeLength: 12
-    - _FakeLightDir: 1
+    - _FakeLightDir: 0
     - _FakeLighting: 0
     - _Float0: 0.5470588
     - _ForcedSpecFresnel: 6
     - _ForcedSpecGlossiness: 3
     - _ForcedSpecIntensity: 12
-    - _Gloss: 7.14
+    - _Gloss: 6.95
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -168,8 +168,8 @@ Material:
     - _Shininess: 0.235
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
-    - _Specular: 5
-    - _SpecularDarkness: 0.176
+    - _Specular: 0
+    - _SpecularDarkness: 0.34
     - _SpecularHighlights: 1
     - _Speed: 0.005
     - _SrcBlend: 1
@@ -181,12 +181,13 @@ Material:
     - _TessMaxDistance: 300
     - _TessPhongStrength: 1
     - _TesselationFactor: 1
-    - _TextureVisibility: 0.056
+    - _TextureVisibility: 0
     - _Tiling: 1
     - _UVSec: 0
     - _UnderWaterOpacity: 0.5
     - _UnderwaterOpacity: 1
     - _VertexMovement: 0
+    - _VertexOffset: 0
     - _VertexWaveHeight: 76.16
     - _VertexWaveSpeed: 0.79
     - _WaveAmount: 0.1
@@ -209,15 +210,15 @@ Material:
     - _LightColor: {r: 0.4852941, g: 0.58254534, b: 1, a: 1}
     - _LightDirOffset: {r: -75, g: 0, b: 0, a: 0}
     - _MainColor: {r: 0.75735295, g: 0.75735295, b: 0.75735295, a: 1}
-    - _Normal2Offset: {r: -0.5, g: 0.3, b: 0, a: 0}
+    - _Normal2Offset: {r: 0, g: 0, b: 0, a: 0}
     - _NormalSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColorNorm: {r: 1, g: 1, b: 1, a: 1}
     - _Vector0: {r: -1.02, g: 0.79, b: 1.23, a: 0}
     - _WaterColor: {r: 0.12499998, g: 0.16724145, b: 1, a: 1}
-    - _WaterTint: {r: 0.098039225, g: 0, b: 0.16078432, a: 1}
-    - _WaveDirection1: {r: 0.026816607, g: 0.45588237, b: 0.31384605, a: 0}
-    - _WaveDirection2: {r: 0.2808168, g: 0.3897052, b: 0.28607348, a: 0}
-    - _WaveDirection3: {r: 0.61764705, g: 0.08945174, b: 0, a: 0}
-    - _WaveDirection4: {r: 0, g: 0.040567458, b: 0.23529342, a: 0}
+    - _WaterTint: {r: 0.09803919, g: 0, b: 0.16078427, a: 1}
+    - _WaveDirection1: {r: 0.026816607, g: 0.45588237, b: 0.31384602, a: 0}
+    - _WaveDirection2: {r: 0.28081676, g: 0.38970518, b: 0.28607342, a: 0}
+    - _WaveDirection3: {r: 0.61764705, g: 0.08945169, b: 0, a: 0}
+    - _WaveDirection4: {r: 0, g: 0.040567428, b: 0.23529339, a: 0}
     - _WaveSpeed: {r: 0, g: 0.05, b: 0, a: 0}
