@@ -5,8 +5,8 @@ A set of fun/useful shaders for use in VRChat and Unity.
 ## I have also added example scenes and improved on a lot of the shaders code.  There is also now a toon shader!
 
 # How to add to assets?  
-Download and extract the following unity package:
-[syns-unity-shaders.unitypackage](syns-unity-shaders.unitypackage)
+Download the latest release at the link below, and unzip into your Assets directory.  
+https://github.com/synlogic/Syns-Unity-Shaders/releases/latest
   
 # Avatar Shaders
 +<img src="Syns-Unity-Shaders/Assets/avatar-shaders.gif?raw=true">
