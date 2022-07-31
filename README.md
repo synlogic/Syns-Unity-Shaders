@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W21OEBU)
 # Syn's Unity Shaders
 A set of fun/useful shaders for use in VRChat and Unity.  
 
